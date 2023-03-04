@@ -1,0 +1,54 @@
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.frame {
+    position: relative;
+}
+.base--roof {
+    background-color: red;
+    height: 100px;
+    width: 250px;
+    margin-left: 150px;
+    border-radius: 150px 50px 0 0;
+}
+.base--door {
+    background-color: red;
+    height: 100px;
+    width: 350px;
+    margin-left: 70px;
+    border-radius: 70px 10px 0 0;
+}
+.base--window {
+    background-color: #96a6f0;
+    opacity: 0.7;
+    height: 70px;
+    width: 80px;
+    margin-left: 70px;
+    border-radius: 70px 10px 0 0;
+    position: relative;
+    top: -180px;
+    left: 100px;
+    z-index: 50;
+}
+.base--wheel {
+    width: 80px;
+    position: relative;
+    top: -100px;
+    left: 100px;
+    
+}
+.wheel {
+    width: 80px;
+    position: relative;
+    top: -100px;
+    left: 230px;
+}
+.boy {
+    width: 60px;
+    position: relative;
+    top: -260px;
+    left: 10px;
+    border-radius: 70px 0 0 0;
+}
